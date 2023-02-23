@@ -4,10 +4,14 @@ traceAreaLas is a small program in Python 3.11 which traces in Autocad the exten
 
 When you receive a large amount of point clouds from a Lidar, a scouting plan is a definite help.
 
+The clouds containing less than 1000 points are ignored.
+
 Insert a block for each .las file containing
+
  - 2 Polylines
    - the theoretical area (100m x 100m)
    - the real area in red
+   
  - 3 Attributs
    - the name of the file
    - the number of points
