@@ -58,6 +58,8 @@ def traceAreaLas():
         # Counters
         cpt = 0
         cptI = 0
+        # Insert units in Meter
+        doc.SetVariable('insunits', 6)
         # UCS Controle
         ucs = doc.GetVariable('worlducs')
         if ucs != 1:
