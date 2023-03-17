@@ -1,4 +1,4 @@
-![](./img/illu.jpg)
+![](./img/illu.png)
 
 # traceAreaLas 1.1
 
