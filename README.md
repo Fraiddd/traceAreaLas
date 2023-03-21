@@ -24,8 +24,7 @@ Insert a block for each .las file containing
 
 ## Installation
 
-   - No installation for .exe
-   - for .py you have to install pyautocad and laspy
+   - You have to install pyautocad and laspy
 
 ```
 pip install pyautocad
