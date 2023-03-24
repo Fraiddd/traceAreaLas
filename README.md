@@ -2,7 +2,7 @@
 
 # traceAreaLas 1.1
 
-traceAreaLas is a small program in Python 3.11 which traces in Autocad the extent of the .las files.
+traceAreaLas is a small program in Python 3.11 which traces in Autocad the extent of the .las, .laz files.
 
 When you receive a large amount of point clouds from a Lidar, a scouting plan is a definite help.
 
@@ -28,7 +28,7 @@ Insert a block for each .las file containing
 
 ```
 pip install pyautocad
-pip install laspy
+pip install laspy[lazrs,laszip]
 ```
 
 ## Requirements
@@ -45,7 +45,7 @@ pip install laspy
 
   - Start traceAreaLas
 
-  - Choose .las files
+  - Choose .las or .laz files
 
   - Wait a minute
 
